@@ -1,0 +1,7 @@
+던파 비트비트체 v2 (DNF Bit Bit v2)
+Copyright (c) 2005 NEOPLE inc. All Rights Reserved.
+
+이 폰트의 지적 재산권을 포함한 모든 권리는 (주)네오플에 있습니다.
+네오플이 무료로 배포하는 폰트이며, 저작권 표시를 넣고 웹페이지에 포함해 사용했습니다.
+원본은 공식 배포 주소에서 받았고, 웹에서 쓰기 위해 형식만 woff2로 바꿨습니다.
+원본: https://cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf

@@ -77,10 +77,9 @@ footer{margin-top:60px;color:var(--muted);font-size:13px}
 .itm{width:30px;height:30px;border-radius:6px;display:grid;place-items:center;position:relative;flex:none}
 .itm .n{position:absolute;right:2px;bottom:0;font:700 9px/1.2 var(--mono);color:#fff;text-shadow:0 0 2px #000,0 0 2px #000}
 .dot{position:absolute;top:-3px;right:-3px;min-width:9px;height:9px;border-radius:9px;background:var(--mred);box-shadow:0 0 0 1.5px var(--msf);font:700 8px/9px var(--body);color:#fff;text-align:center;padding:0 2px}
-@font-face{font-family:'Galmuri11';src:url('fonts/Galmuri11.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:'Galmuri11';src:url('fonts/Galmuri11-Bold.woff2') format('woff2');font-weight:700;font-display:swap}
-/* 게임 화면 속 글자는 갈무리(Galmuri, OFL)로 */
-.card.ingame .mock,.mock .gamebg{--body:'Galmuri11','Noto Sans KR',sans-serif;--mono:'Galmuri11',monospace;font-family:var(--body);-webkit-font-smoothing:none;font-smooth:never}
+@font-face{font-family:'DNFBitBitv2';src:url('fonts/DNFBitBitv2.woff2') format('woff2');font-weight:400;font-display:swap}
+/* 게임 화면 속 글자는 던파 비트비트체 v2(ⓒ NEOPLE)로. 굵기가 하나뿐이라 가짜 굵게는 끈다 */
+.card.ingame .mock,.mock .gamebg{--body:'DNFBitBitv2','Noto Sans KR',sans-serif;--mono:'DNFBitBitv2',monospace;font-family:var(--body);font-synthesis:none;-webkit-font-smoothing:none}
 .gamebg{position:absolute;inset:10px;border-radius:6px;overflow:hidden;background:linear-gradient(#7fb2e0 0 55%,#6a9a4a 55% 100%)}
 
 @keyframes slidelin{0%,15%{transform:translateX(-110%)}45%,85%{transform:translateX(0)}100%{transform:translateX(-110%)}}
@@ -268,7 +267,7 @@ table.web tr:last-child td{border-bottom:0}
 </header>
 <nav class="cats" id="cats"></nav>
 <main id="main"></main>
-<footer>모든 예시는 HTML과 CSS로 만든 실제 화면 조각입니다. 마우스를 올리거나 눌러 볼 수 있는 것도 있습니다.</footer>
+<footer>모든 예시는 HTML과 CSS로 만든 실제 화면 조각입니다. 마우스를 올리거나 눌러 볼 수 있는 것도 있습니다.<br>게임 화면 글꼴: 던파 비트비트체 v2 ⓒ NEOPLE inc.</footer>
 </div>
 
 <script>
