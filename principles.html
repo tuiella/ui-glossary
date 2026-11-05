@@ -741,7 +741,7 @@ table.web tr:last-child td{border-bottom:0}
 </header>
 <nav class="cats" id="cats"></nav>
 <main id="main"></main>
-<footer>모든 예시는 HTML과 CSS로 만든 실제 화면 조각입니다. 마우스를 올리거나 눌러 볼 수 있는 것도 있습니다.<br>게임 화면 글꼴: 던파 비트비트체 v2 ⓒ NEOPLE inc.</footer>
+<footer>모든 예시는 HTML과 CSS로 만든 실제 화면 조각입니다. 마우스를 올리거나 눌러 볼 수 있는 것도 있습니다.<br>게임 화면 글꼴: 던파 비트비트체 v2 ⓒ NEOPLE inc.<br>방문 수는 쿠키 없이 Cloudflare Web Analytics로 셉니다.</footer>
 </div>
 
 <script>
@@ -1420,3 +1420,4 @@ const goHash=()=>{const id=decodeURIComponent(location.hash.slice(1));const el=i
 addEventListener('load',goHash);addEventListener('hashchange',goHash);
 const fit=st=>st.style.setProperty('--s',st.clientWidth/(+st.dataset.w||280));const ro=new ResizeObserver(es=>es.forEach(e=>fit(e.target)));document.querySelectorAll('.stage').forEach(st=>{fit(st);ro.observe(st)});
 </script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "eb9c31f861f94b378f5ca0eb41d716d7"}'></script><!-- End Cloudflare Web Analytics -->
