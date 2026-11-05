@@ -99,7 +99,11 @@ footer{margin-top:60px;color:var(--muted);font-size:13px}
 .part small{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.08em}
 .part+p.lead{color:var(--muted);margin:8px 0 0;max-width:62ch}
 header .sub,header .back{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);padding:6px 14px;border-radius:4px}
-header .sub{margin-top:18px}header p.note{margin-top:10px;font-size:14px}header .back{margin-bottom:18px;font-size:13px;color:var(--muted)}
+header .sub{margin-top:18px}
+header{position:relative}
+header .hub{position:absolute;top:0;right:0;display:inline-flex;align-items:center;font-size:14px;font-weight:500;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);padding:6px 14px;border-radius:4px}
+header .hub:hover,header .hub:focus-visible{border-color:var(--ink);outline:none}
+@media (max-width:560px){header .hub{position:static;margin-bottom:16px}}header p.note{margin-top:10px;font-size:14px}header .back{margin-bottom:18px;font-size:13px;color:var(--muted)}
 header .sub:hover,header .back:hover,header .sub:focus-visible,header .back:focus-visible{border-color:var(--red);color:var(--ink);outline:none}
 nav.cats .grp{font-family:var(--mono);font-size:11px;color:var(--muted);align-self:center;margin-left:6px;letter-spacing:.06em}
 .stage.wide{aspect-ratio:16/9}
@@ -730,6 +734,7 @@ table.web tr:last-child td{border-bottom:0}
 
 <div class="wrap">
 <header>
+  <a class="hub" href="https://tuiella.github.io/b3/">B3 아티클 모음</a>
   <a class="back" href="./"><span aria-hidden="true">←</span> UI 용어집</a>
   <h1>UI 원칙<span>.</span></h1>
   <p>화면을 어떻게 배치하고 보여 줄지에 대한 원칙입니다. 왼쪽이 원칙을 지키기 전, 오른쪽이 지킨 뒤입니다.</p>
